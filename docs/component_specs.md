@@ -1,4 +1,5 @@
 *Software components*
+____________
 •	Data manager
 The data are stored in csv file and we import it into Python Jupyter Notebook. The data itself is messy and the data quality is not high. We only keep reviews data with quotes which are not null value. We only selected the features we need from both data sets and stored them into Python DataFrame. 
 
@@ -14,6 +15,7 @@ i.e. Use Case as a Movie Magazine Manager
 Interested in a Critic - Derek Adams, by loading into our Python program. The interface will jump out a blank to let the user fill in the Critic’s name that she/he is interested in. After inputting the name, the data manager will query the data need for the plot. The Python function will do the plot and show the visualization in the interface. If the user is also interested in the sentiment, the Python program will call the data manager again and show the emotion analysis. 
 
 *Preliminary plan*
+________________
 •	Load the data, clean the data and explore the data 
 •	Clarify goal for this project and determine the user cases 
 •	Write the preliminary code and determine the data manager and visualization manager
