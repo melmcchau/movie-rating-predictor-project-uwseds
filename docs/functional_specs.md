@@ -21,6 +21,8 @@ ________________
 Input:  Reviewer Name/ Time Span
                i.e. Derek Adams 01/01/2018-12/31/2018
 Output: A rating trend line within the time span 
+
+
 •	Use Case 2
 Input:  Reviewer Name
                i.e. Derek Adams 
