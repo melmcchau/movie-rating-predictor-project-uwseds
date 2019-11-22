@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>movie-rating-predictor-project-uwseds/functional_specs.md at master · melmcchau/movie-rating-predictor-project-uwseds · GitHub</title>
+  <title>movie-rating-predictor-project-uwseds/component_specs.md at master · melmcchau/movie-rating-predictor-project-uwseds · GitHub</title>
     <meta name="description" content="Project for UWSEDS Class - Movie Rating Predictor. Contribute to melmcchau/movie-rating-predictor-project-uwseds development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -42,7 +42,7 @@
   
   
 
-    <meta name="request-id" content="FB7A:2748:20C7449:22955C2:5DD833D7" data-pjax-transient>
+    <meta name="request-id" content="FB73:06A1:1A2AE24:1B9167E:5DD833C6" data-pjax-transient>
 
 
   
@@ -53,7 +53,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="FB7A:2748:20C7449:22955C2:5DD833D7" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="901766133837214679" />
+    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="FB73:06A1:1A2AE24:1B9167E:5DD833C6" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="8639195793990366150" />
 
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
@@ -73,11 +73,11 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="MGNiYjM3YjZmNTk4NDBiZTNiODJjNDc3NDk5NzJiOTMwNzY1YzVhODZmYjRhZGVhZmQyNWY3M2NhMWRmMjEzMXx7InJlbW90ZV9hZGRyZXNzIjoiMjA1LjE3NS4xMDYuMTEyIiwicmVxdWVzdF9pZCI6IkZCN0E6Mjc0ODoyMEM3NDQ5OjIyOTU1QzI6NUREODMzRDciLCJ0aW1lc3RhbXAiOjE1NzQ0NTAxMzUsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="NTE4M2M1ZDdjNDhjNDdhNDI3MjIzOWFmYjkxMGMxNzE3ODQyY2IzOGQ4MDlmYjE3OTEwNzUyMjk0ODRlMmQ1MXx7InJlbW90ZV9hZGRyZXNzIjoiMjA1LjE3NS4xMDYuMTEyIiwicmVxdWVzdF9pZCI6IkZCNzM6MDZBMToxQTJBRTI0OjFCOTE2N0U6NUREODMzQzYiLCJ0aW1lc3RhbXAiOjE1NzQ0NTAxMTgsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="ACTIONS_V2_ON_MARKETPLACE,MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS">
 
-    <meta name="html-safe-nonce" content="d74ed8d723ca85dcfa454f60c8859b6803d7ee42">
+    <meta name="html-safe-nonce" content="6d3620db220dfd586741f48a78008d0683bf7bd5">
 
   <meta http-equiv="x-pjax-version" content="f3c4ad67727c2102bb4c0464c136c841">
   
@@ -89,7 +89,7 @@
   <meta name="octolytics-dimension-user_id" content="49283778" /><meta name="octolytics-dimension-user_login" content="melmcchau" /><meta name="octolytics-dimension-repository_id" content="219076251" /><meta name="octolytics-dimension-repository_nwo" content="melmcchau/movie-rating-predictor-project-uwseds" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="219076251" /><meta name="octolytics-dimension-repository_network_root_nwo" content="melmcchau/movie-rating-predictor-project-uwseds" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/functional_specs.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/component_specs.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -143,7 +143,7 @@
         <div class="d-flex flex-items-center">
             <a href="/join?source=header-repo"
               class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5"
-              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB7A:2748:20C7449:22955C2:5DD833D7&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/functional_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="55d04bff10148c3fd816339a83fc1c8326d6f21d2a0b7ff04382411abe95c745"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB73:06A1:1A2AE24:1B9167E:5DD833C6&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/component_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3a2a65f8a4f4568c1d9d3e2843a1a957c2a07016dda06b06116489d3e5cc2880"
               data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
               Sign&nbsp;up
             </a>
@@ -285,7 +285,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=0FY+WPrfWl/rA/JDb7Wb3zUwnb3mj7USaxPGmNLuSUshFfhAWDHkdBIq+uPYsb6LqiWmnINMXAiHi6plANWvuw=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=msdtLdO4AL/sUCSyoJRdqa63dhTxu/B7ZCkwJJCyjMEgYX4sZ6vsZTTO87GIGPeVC6jXOEzx9uwxJ72Sjdr7bw=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -410,15 +410,15 @@
 
           </div>
 
-        <a href="/login?return_to=%2Fmelmcchau%2Fmovie-rating-predictor-project-uwseds%2Fblob%2Fmaster%2Fdocs%2Ffunctional_specs.md"
+        <a href="/login?return_to=%2Fmelmcchau%2Fmovie-rating-predictor-project-uwseds%2Fblob%2Fmaster%2Fdocs%2Fcomponent_specs.md"
           class="HeaderMenu-link no-underline mr-3"
-          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB7A:2748:20C7449:22955C2:5DD833D7&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/functional_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b9ad02080e464d0f0c47f9f9962c9de91eabdd55d52f4848341ac2b3faa0048e"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB73:06A1:1A2AE24:1B9167E:5DD833C6&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/component_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d1768e171fd221ef9665cb7784dc13a84db7024805c7be69ec82fe16232a5630"
           data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
           Sign&nbsp;in
         </a>
           <a href="/join?source=header-repo&amp;source_repo=melmcchau%2Fmovie-rating-predictor-project-uwseds"
             class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB7A:2748:20C7449:22955C2:5DD833D7&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/functional_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b9ad02080e464d0f0c47f9f9962c9de91eabdd55d52f4848341ac2b3faa0048e"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB73:06A1:1A2AE24:1B9167E:5DD833C6&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/component_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d1768e171fd221ef9665cb7784dc13a84db7024805c7be69ec82fe16232a5630"
             data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
             Sign&nbsp;up
           </a>
@@ -466,7 +466,7 @@
 
   <li>
     
-  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB7A:2748:20C7449:22955C2:5DD833D7&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/functional_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="332319e96d776156fca89947dfe14e65497805711a3cc6b468f8e067776f9cea" href="/login?return_to=%2Fmelmcchau%2Fmovie-rating-predictor-project-uwseds">
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB73:06A1:1A2AE24:1B9167E:5DD833C6&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/component_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="07a3afffd010e1bd71a9622ae067d93e742c36240b0689466b1641a4af74530b" href="/login?return_to=%2Fmelmcchau%2Fmovie-rating-predictor-project-uwseds">
     <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
     Watch
 </a>    <a class="social-count" href="/melmcchau/movie-rating-predictor-project-uwseds/watchers"
@@ -477,7 +477,7 @@
   </li>
 
   <li>
-        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:219076251,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB7A:2748:20C7449:22955C2:5DD833D7&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/functional_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="512ea5a06617c8ac0687794ab0077d2bf45198b8fb8594f7d057966d83b0764a" href="/login?return_to=%2Fmelmcchau%2Fmovie-rating-predictor-project-uwseds">
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:219076251,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB73:06A1:1A2AE24:1B9167E:5DD833C6&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/component_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6ac5d747bc966c62136aefc2e10776faa44dd00f654a76151a67115b243e7985" href="/login?return_to=%2Fmelmcchau%2Fmovie-rating-predictor-project-uwseds">
       <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
       Star
 </a>
@@ -489,7 +489,7 @@
   </li>
 
   <li>
-      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:219076251,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB7A:2748:20C7449:22955C2:5DD833D7&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/functional_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c4a20c61fde3d0ac470a1070841deea75d9c1847ab0b30a9e500175a89c84e82" href="/login?return_to=%2Fmelmcchau%2Fmovie-rating-predictor-project-uwseds">
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:219076251,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB73:06A1:1A2AE24:1B9167E:5DD833C6&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/component_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="250525fe3ea906519ed5a4ae374846e56d1604d007f2ae94b5233fa41d207fc3" href="/login?return_to=%2Fmelmcchau%2Fmovie-rating-predictor-project-uwseds">
         <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
         Fork
 </a>
@@ -615,19 +615,19 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/melmcchau/movie-rating-predictor-project-uwseds/blob/de0d452b51992dd3be341770577596f674d1ac08/docs/functional_specs.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/melmcchau/movie-rating-predictor-project-uwseds/blob/de0d452b51992dd3be341770577596f674d1ac08/docs/component_specs.md">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:308c5659dbd40ec121d05c66917afa4d -->
+    <!-- blob contrib key: blob_contributors:v21:e4e396bec6633fb7c99c35452816ed9c -->
           <div class="signup-prompt-bg rounded-1">
       <div class="signup-prompt p-4 text-center mb-4 rounded-1">
         <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="3kEbFqLKVC7ALnlYhKN7O+BsIYz3967ceUGFgFru8J+AaFJdbKCfdgiPv4gYtRhWtMZ81bqpS3LSAAg8NRKYfg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="ky1HBNxm2r0z8NzxGppq/mcUvGqAL8mHYd/VCHmH5bq1O9LBXsY/nTuoFPMOANYXbgZwhfZtagRP0DRuvcb39w==" />
             <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
               Dismiss
             </button>
 </form>          <h3 class="pt-2">Join GitHub today</h3>
           <p class="col-6 mx-auto">GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.</p>
-          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB7A:2748:20C7449:22955C2:5DD833D7&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/functional_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d130cf281ea1fe540397ce21979a93864655f0b4564160f24e5b67f994db9f2f" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show&amp;source_repo=melmcchau%2Fmovie-rating-predictor-project-uwseds">Sign up</a>
+          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;FB73:06A1:1A2AE24:1B9167E:5DD833C6&quot;,&quot;originating_url&quot;:&quot;https://github.com/melmcchau/movie-rating-predictor-project-uwseds/blob/master/docs/component_specs.md&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6d85c5f4a91d8f412dde5a102a928b49ad71d625ff556d6723d2aa252fd7e76b" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show&amp;source_repo=melmcchau%2Fmovie-rating-predictor-project-uwseds">Sign up</a>
         </div>
       </div>
     </div>
@@ -644,7 +644,7 @@
     <span class="css-truncate-target" data-menu-button>master</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/melmcchau/movie-rating-predictor-project-uwseds/ref-list/master/docs/functional_specs.md?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/melmcchau/movie-rating-predictor-project-uwseds/ref-list/master/docs/component_specs.md?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -658,13 +658,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="docs/functional_specs.md" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="docs/component_specs.md" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/melmcchau/movie-rating-predictor-project-uwseds"><span>movie-rating-predictor-project-uwseds</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/melmcchau/movie-rating-predictor-project-uwseds/tree/master/docs"><span>docs</span></a></span><span class="separator">/</span><strong class="final-path">functional_specs.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/melmcchau/movie-rating-predictor-project-uwseds"><span>movie-rating-predictor-project-uwseds</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/melmcchau/movie-rating-predictor-project-uwseds/tree/master/docs"><span>docs</span></a></span><span class="separator">/</span><strong class="final-path">component_specs.md</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -674,7 +674,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="docs/functional_specs.md" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="docs/component_specs.md" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -691,12 +691,12 @@
           <a rel="author" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/melmcchau/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/melmcchau"><img class="avatar" src="https://avatars1.githubusercontent.com/u/49283778?s=40&amp;v=4" width="20" height="20" alt="@melmcchau" /></a>
           <a class="text-bold link-gray-dark lh-default v-align-middle" rel="author" data-hovercard-type="user" data-hovercard-url="/users/melmcchau/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/melmcchau">melmcchau</a>
             <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="Update functional_specs.md" class="link-gray" href="/melmcchau/movie-rating-predictor-project-uwseds/commit/de0d452b51992dd3be341770577596f674d1ac08">Update functional_specs.md</a>
+              <a data-pjax="true" title="Update component_specs.md" class="link-gray" href="/melmcchau/movie-rating-predictor-project-uwseds/commit/27c06d0ff03aeb56478bfa80b61fec139a1c6b98">Update component_specs.md</a>
             </span>
         </span>
         <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-          <a class="pr-2 text-mono link-gray" href="/melmcchau/movie-rating-predictor-project-uwseds/commit/de0d452b51992dd3be341770577596f674d1ac08" data-pjax>de0d452</a>
-          <relative-time datetime="2019-11-22T19:12:34Z" class="no-wrap">Nov 22, 2019</relative-time>
+          <a class="pr-2 text-mono link-gray" href="/melmcchau/movie-rating-predictor-project-uwseds/commit/27c06d0ff03aeb56478bfa80b61fec139a1c6b98" data-pjax>27c06d0</a>
+          <relative-time datetime="2019-11-22T19:10:50Z" class="no-wrap">Nov 22, 2019</relative-time>
         </span>
       </div>
 
@@ -708,7 +708,7 @@
         <details-dialog
           class="Box Box--overlay d-flex flex-column anim-fade-in fast"
           aria-label="Users who have contributed to this file"
-          src="/melmcchau/movie-rating-predictor-project-uwseds/contributors-list/master/docs/functional_specs.md" preload>
+          src="/melmcchau/movie-rating-predictor-project-uwseds/contributors-list/master/docs/component_specs.md" preload>
           <div class="Box-header">
             <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
               <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -732,17 +732,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      29 lines (24 sloc)
+      25 lines (20 sloc)
       <span class="file-info-divider"></span>
-    1.79 KB
+    2.5 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/melmcchau/movie-rating-predictor-project-uwseds/raw/master/docs/functional_specs.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/melmcchau/movie-rating-predictor-project-uwseds/blame/master/docs/functional_specs.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/melmcchau/movie-rating-predictor-project-uwseds/commits/master/docs/functional_specs.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/melmcchau/movie-rating-predictor-project-uwseds/raw/master/docs/component_specs.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/melmcchau/movie-rating-predictor-project-uwseds/blame/master/docs/component_specs.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/melmcchau/movie-rating-predictor-project-uwseds/commits/master/docs/component_specs.md">History</a>
     </div>
 
 
@@ -765,30 +765,26 @@
 
       
   <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-    <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>Background</p>
+    <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p><em>Software components</em></p>
 <hr>
-<p>Reviews on movies are created by critics and have an impact on the success and awards of a given movie. These reviews include chunks of text that describe the movie and the review, this project is providing the user information about how a critic rates movies over time so they can see if there is variation in rating and sentiment over the years. The problems we will solved are as follows:
-•	General movie rating trend line for all the movies we have during a time span
-•	A certain critic’s rating and sentiment analysis over time</p>
-<p>User Profile</p>
+<p>•	Data manager
+The data are stored in csv file and we import it into Python Jupyter Notebook. The data itself is messy and the data quality is not high. We only keep reviews data with quotes which are not null value. We only selected the features we need from both data sets and stored them into Python DataFrame.</p>
+<p>•	Visualization manager Ⅰ
+It has the input of year range including start year and end year. After receiving the year, it calculates the medium rating grouped by year and only select the year within the range. And it will plot the trend for rating for that period. The output is a clear trend line and in the x-axis we have year, in the y-axis we can see the rating.</p>
+<p>•	Visualization manager Ⅱ
+With the support of  word-sentiments from NRC Word Emotion Association  as well as NLTK library in Python, we did the sentiment analysis for all the quotes of a certain critic. We firstly select all the quotes for a certain critic within a time period and split the word into individual words. Then we only get those words that contain a specific emotion from the NRC dictionary and calculate the percent of words in each emotion to all the words. Our final visualization will be a table showing the critic’s emotion percentage and sample words
+Interactions to accomplish use cases
+Overall, the interactions are between the user and the interface, the interface and the Python program, the Python program and the data manager. The data manager will clean all the data first and create a usable subset of data. Then the visualization part can use the data for plot.</p>
+<p>i.e. Use Case as a Movie Magazine Manager
+Interested in a Critic - Derek Adams, by loading into our Python program. The interface will jump out a blank to let the user fill in the Critic’s name that she/he is interested in. After inputting the name, the data manager will query the data need for the plot. The Python function will do the plot and show the visualization in the interface. If the user is also interested in the sentiment, the Python program will call the data manager again and show the emotion analysis.</p>
+<p><em>Preliminary plan</em></p>
 <hr>
-<p>The movie research center or some movie magazine organizations care about the critic’s rating and sentiment. Knowing the rating trend line as well as the sentiment analysis for a specific critic could help them better choose the right critic for evaluating important movies.
-Our deliverable will be python modules, users could program with Python and run the functions, the program with have step-by-step instruction to lead the user see the results there need.</p>
-<p>Data Sources</p>
-<hr>
-<p>Our data sources are including reviews data and movies data from Rotten Tomatoes websites. Both the movies data and reviews data are tabular data saved in CSV file.
-•	The Movies data are including 65000 different movies from 1903 to 2011. The data structure including movie id, release year, number of reviews as well as ratings.
-•	The Reviews data are ranging from 1929 to 2013 including their score, the reviewer, and the reviewer contents</p>
-<p>User Cases</p>
-<hr>
-<p>•	Use Case 1
-Input:  Reviewer Name/ Time Span
-i.e. Derek Adams 01/01/2018-12/31/2018
-Output: A rating trend line within the time span</p>
-<p>•	Use Case 2
-Input:  Reviewer Name
-i.e. Derek Adams
-Output: Example Quotes/ Sentiment Score</p>
+<p>•	Load the data, clean the data and explore the data
+•	Clarify goal for this project and determine the user cases
+•	Write the preliminary code and determine the data manager and visualization manager
+•	Code review with TA and update the code
+•	Write up the project and set up for the Python Program
+•	Make the program ready-to-use and do final Presentation</p>
 </article>
   </div>
 
