@@ -19,7 +19,7 @@ Overall, the interactions are between the user and the interface, the interface 
 
 i.e. Use Case as a Movie Magazine Manager
 
-Interested in a Critic - Derek Adams, by loading into our Python program. The interface will jump out a blank to let the user fill in the Critic’s name that she/he is interested in. After inputting the name, the data manager will query the data need for the plot. The Python function will do the plot and show the visualization in the interface. If the user is also interested in the sentiment, the Python program will call the data manager again and show the emotion analysis. 
+Interested in a Critic - Derek Adams, by loading into our Python program. The interface will jump out a blank to let the user fill in the Critic’s name that she/he is interested in. After inputting the name, the data manager will query the data needed for the plot. The Python function will do the plot and show the visualization in the interface. If the user is also interested in the sentiment, the Python program will call the data manager again and show the emotion analysis. 
 
 _____________
 _____________

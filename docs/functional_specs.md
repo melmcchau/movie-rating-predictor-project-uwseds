@@ -27,5 +27,5 @@ __
 •	Use Case 2
 Input:  Reviewer Name
                i.e. Derek Adams 
-Output: Example Quotes/ Sentiment Score
+Output: Sentiment Score / Sample Emotion Words 
 
