@@ -10,8 +10,10 @@ MOVIES = pd.read_csv("../data/movies.dat", delimiter='\t')
 REVIEWS = pd.read_csv('../data/reviews.csv')
 
 '''OVERALL LOOK'''
-start_year = 1990
-end_year = 2013
+print('Please insert the start year of a range of interest')
+start_year = int(input())
+print('Please insert the end year of a range of interest')
+end_year = int(input())
 SUB_MOVIES = CleanData.clean_movies(MOVIES)
 OverallRating.draw_trend_line_median_year(SUB_MOVIES,start_year,end_year)
 
@@ -23,6 +25,7 @@ REVIEWS_MERGE = CleanData.merge_movies_reviews(REVIEWS_CLEAN,SUB_MOVIES)
 print('Please input a year of interest to see critic activity that year: ')
 interest_year = int(input())
 top_critics = OverallRating.top5_critic_per_year(REVIEWS_MERGE,interest_year)
+print('The top critics that year are:')
 print(top_critics)
 
 '''GRAB CRITIC REVIEWS'''
