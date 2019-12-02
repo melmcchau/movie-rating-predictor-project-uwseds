@@ -4,7 +4,6 @@ import OverallRating
 import SentimentAnalysis
 import Visualization
 
-
 '''LOAD DATA'''
 MOVIES = pd.read_csv("../data/movies.dat", delimiter='\t')
 REVIEWS = pd.read_csv('../data/reviews.csv')
@@ -30,7 +29,6 @@ print(top_critics)
 
 '''GRAB CRITIC REVIEWS'''
 QUOTES = SentimentAnalysis.grab_quotes(REVIEWS_MERGE,top_critics,interest_year)
-print(QUOTES)
 
 '''ANALYZE QUOTES'''
 EMOTION_ARRAY = SentimentAnalysis.analyze_quote(QUOTES,top_critics)
