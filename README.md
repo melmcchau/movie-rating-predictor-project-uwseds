@@ -4,6 +4,9 @@
 Reviews on movies are created by critics and have an impact on the success and awards of a given movie. These reviews include chunks of text that describe the movie and the review. this project is providing the user information about how a critic rates movies over time so they can see if there is variation in rating and sentiment over the years. 
 To achieve this goal we will need to use packages for data manipulation, visualization (for exploratory analysis) and learning.
 
+### Organization of the project
+
+
 
 ### Files Introduction
 
