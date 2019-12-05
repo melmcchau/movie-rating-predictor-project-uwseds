@@ -25,5 +25,7 @@ def visualize(EMOTION_ARRAY):
         title = 'Sentiment for Top 5 Critics',
         columns=5,
         )
+
     chart_final.save('finalchart.html')
+    return chart_final
 
