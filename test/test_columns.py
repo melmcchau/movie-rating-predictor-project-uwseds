@@ -20,7 +20,6 @@ class TestColumns(unittest.TestCase):
         review = CleanData.clean_reviews(review_data)
         expected_columns_movie = ('rtAllCriticsRating' and
                             'rtAllCriticsNumReviews' and
-                            'Office Product Key' and
                             'rtAudienceRating' and
                             'title' and
                             'imdbID' and
