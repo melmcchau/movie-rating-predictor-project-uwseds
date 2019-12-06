@@ -7,7 +7,7 @@ from os import path
 from io import open
 
 setup(
-   name='moviecriticanalysis',
+   name='movieCriticsOverTime',
    version='1.0',
    description='A module to analyze movie crtitic data and sentiment over time. Made for a class project."
    author='Melinda Haughey/Jessica Liu/Olivia Li',
