@@ -17,9 +17,9 @@ def clean_reviews(REVIEWS):
 """ pre data cleaning for movies data"""
 def clean_movies(MOVIES):
     MOVIES = MOVIES.drop(['imdbPictureURL', 'spanishTitle', 'rtPictureURL'], axis=1)
-    MOVIES['rtAllCriticsRating'] = MOVIES['rtAllCriticsRating'].apply(pd.to_numeric, errors='drop')
-    MOVIES['rtAllCriticsNumReviews'] = MOVIES['rtAllCriticsNumReviews'].apply(pd.to_numeric, errors='drop')
-    MOVIES['rtAudienceRating'] = MOVIES['rtAudienceRating'].apply(pd.to_numeric, errors='drop')
+    MOVIES['rtAllCriticsRating'] = MOVIES['rtAllCriticsRating'].apply(pd.to_numeric, errors='coerce')
+    MOVIES['rtAllCriticsNumReviews'] = MOVIES['rtAllCriticsNumReviews'].apply(pd.to_numeric, errors='coerce')
+    MOVIES.dropna()
     SUB_MOVIES = MOVIES[['title', 'imdbID', 'year', 'rtID', 'rtAllCriticsRating', 'rtAllCriticsNumReviews', 'rtAudienceNumRatings', 'rtAudienceScore']]
     return SUB_MOVIES
 
