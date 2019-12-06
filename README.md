@@ -1,4 +1,4 @@
-# CSE583-Movie_Rating_Analysis -Group 5
+# CSE583-Movie Critic Analysis Over Time - Group 5
 
 ### Project Overview
 Reviews on movies are created by critics and have an impact on the success and awards of a given movie. These reviews include chunks of text that describe the movie and the review. This repository provides the user information about how movies have been rated over time and details about critic sentiment so they can investigate changes. 
