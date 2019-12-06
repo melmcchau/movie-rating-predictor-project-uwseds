@@ -30,14 +30,15 @@ Pandas, Altair, Jupyter Notebook
 
 You can interact with the program using the jupyter notebook named "Movie Critics Over Time". 
 * As an interested user:
-  1. Clone the repository to your computer
-  2. Navigate to folder and open Jupyter Notebook
-  3. Run the Jupyter Notebook Kernel - Add time ranges and years of interest to explore the data.
-  4. Reset and re-run as needed. 
+    1. Clone the repository to your computer
+    2. Navigate to folder and open Jupyter Notebook
+    3. Run the Jupyter Notebook Kernel - Add time ranges and years of interest to explore the data.
+    4. Reset and re-run as needed. 
+  
  * As a developer looking to re-use the code:
-  1. Clone the repository to your computer
-  2. Navigate to the folder and open Jupyter Notebook
-  3. Replace the data source with your data source (ensure that the formatting matches)
-  4. Make necessary changes to apply it to your use case
+    1. Clone the repository to your computer
+    2. Navigate to the folder and open Jupyter Notebook
+    3. Replace the data source with your data source (ensure that the formatting matches)
+    4. Make necessary changes to apply it to your use case
   
 
