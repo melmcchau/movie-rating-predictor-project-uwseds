@@ -30,9 +30,9 @@ Pandas, Altair, Jupyter Notebook
 
 You can interact with the program using the jupyter notebook named "Movie Critics Over Time". 
 * As an interested user:
-    1. Clone the repository to your computer either by using the clone link above or *pip install moviecriticanalysis*
-    2. Navigate to folder and open Jupyter Notebook
-    3. Run the Jupyter Notebook Kernel - Add time ranges and years of interest to explore the data.
+    1. Clone the repository to your computer using git clone https://github.com/melmcchau/movieCriticsOverTime.git
+    2. Navigate to the folder in the command line and type "jupyter notebook"
+    3. Run the Jupyter Notebook for "movieCriticsOverTime" - Add time ranges and years of interest to explore the data.
     4. Reset and re-run as needed. 
   
  * As a developer looking to re-use the code:
