@@ -3,15 +3,20 @@ ____________
 ____________
 Data manager
 ___________
-The data are stored in csv file and we import it into Python Jupyter Notebook. The data itself is messy and the data quality is not high. We only keep reviews data with quotes which are not null value. We only selected the features we need from both data sets and stored them into Python DataFrame. 
+The data are stored in csv file and we import it into Python Jupyter Notebook. The data itself is messy and the data quality is not high. We only keep reviews data with quotes which are not null value. We only selected the features we need from both data sets and stored them into Python DataFrame. So the data manager includes three parts: clean reviews data, clean movies data, merge movies and reviews data. 
 
 Visualization manager Ⅰ
 ___________
-It has the input of year range including start year and end year. After receiving the year, it calculates the medium rating grouped by year and only select the year within the range. And it will plot the trend for rating for that period. The output is a clear trend line and in the x-axis we have year, in the y-axis we can see the rating.
+It has the input of year range including start year and end year. After receiving the year, it calculates the medium rating grouped by year and only select the year within the range. And it will plot the trend for the median rating for that period. The output is a clear trend line and in the x-axis we have year, in the y-axis we can see the median rating.
 
 Visualization manager Ⅱ
 ___________
-With the support of  word-sentiments from NRC Word Emotion Association  as well as NLTK library in Python, we did the sentiment analysis for all the quotes of a certain critic. We firstly select all the quotes for a certain critic within a time period and split the word into individual words. Then we only get those words that contain a specific emotion from the NRC dictionary and calculate the percent of words in each emotion to all the words. Our final visualization will be a table showing the critic’s emotion percentage and sample words
+With the support of  word-sentiments from NRC Word Emotion Association  as well as NLTK library in Python, we did the sentiment analysis for all the quotes of a certain critic. We firstly select the top 5 critics in that year who have most quotes. And then we visualize their sentiment scores. The visualization will show five charts for those five critics and it had a dropdown for filtering different emotions. 
+
+Visualization manager III
+___________
+By having quotes of the five critics, we use wordcloud package to do the word frequency analysis and visualize the words frequency as word cloud. 
+
 
 Interactions to accomplish use cases
 ___________

@@ -3,12 +3,13 @@ ___________
 
 Reviews on movies are created by critics and have an impact on the success and awards of a given movie. These reviews include chunks of text that describe the movie and the review, this project is providing the user information about how a critic rates movies over time so they can see if there is variation in rating and sentiment over the years. The problems we will solved are as follows:
 •	General movie rating trend line for all the movies we have during a time span
-•	A certain critic’s rating and sentiment analysis over time
+•	Sentiment analysis for the top five critics who have most quotes in a specific year
+•	Word frequency analysis for the quotes of top critics in a specific year
 
 User Profile
 ____________
 The movie research center or some movie magazine organizations care about the critic’s rating and sentiment. Knowing the rating trend line as well as the sentiment analysis for a specific critic could help them better choose the right critic for evaluating important movies.
-Our deliverable will be python modules, users could program with Python and run the functions, the program with have step-by-step instruction to lead the user see the results there need.  
+Our deliverable will be python modules, users could program with Python and run the functions, the program will have step-by-step instruction to lead the user see the results they need.  
 
 Data Sources
 ____________
@@ -25,7 +26,12 @@ Output: A rating trend line within the time span
 __
 
 •	Use Case 2
-Input:  Reviewer Name
-               i.e. Derek Adams 
-Output: Sentiment Score / Sample Emotion Words 
+Input:  Year
+               i.e. 2003
+Output: TOP5 Critics/ Sentiment Score 
+
+•	Use Case 2
+Input:  Year
+               i.e. 2003
+Output: Word Cloud for the five critics 
 
