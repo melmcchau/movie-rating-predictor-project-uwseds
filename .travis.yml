@@ -20,7 +20,7 @@ install:
 - pip install pandas
 
 script:
-  - pytest
+- python test_columns.py
 
 after_success:
 - coveralls
