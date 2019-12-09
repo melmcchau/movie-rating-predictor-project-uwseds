@@ -1,5 +1,6 @@
 # CSE583-Movie Critic Analysis Over Time - Group 5
 [![Build Status](https://travis-ci.org/melmcchau/movieCriticsOverTime.svg?branch=master)](https://travis-ci.org/melmcchau/movieCriticsOverTime)
+[![Coverage Status](https://coveralls.io/repos/github/melmcchau/movieCriticsOverTime/badge.svg?branch=master)](https://coveralls.io/github/melmcchau/movieCriticsOverTime?branch=master)
 
 ### Project Overview
 Reviews on movies are created by critics and have an impact on the success and awards of a given movie. These reviews include chunks of text that describe the movie and the review. This repository provides the user information about how movies have been rated over time and details about critic sentiment so they can investigate changes. 
