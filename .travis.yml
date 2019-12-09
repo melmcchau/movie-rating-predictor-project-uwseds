@@ -19,5 +19,8 @@ install:
 - pip install ipywidgets 
 - pip install pandas
 
+script:
+  - pytest
+
 after_success:
 - coveralls
