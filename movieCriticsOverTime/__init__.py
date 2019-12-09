@@ -1,1 +1,1 @@
-from .movieCriticsOverTime import clean_data
+import clean_data
