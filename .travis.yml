@@ -21,6 +21,8 @@ install:
 
 script:
 - python ./movieCriticsOverTime/test_columns.py
+- python ./movieCriticsOverTime/test_sentiment.py
+- python ./movieCriticsOverTime/test_type.py
 
 after_success:
 - coveralls
