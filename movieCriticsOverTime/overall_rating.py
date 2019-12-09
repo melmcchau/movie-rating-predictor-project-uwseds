@@ -3,13 +3,12 @@ OverallRating.py
 """
 import altair as alt
 
-def draw_trend_line_median_year(SUB_MOVIES, start_year, end_year):
+def draw_trend_line_median_year(sub_movies, start_year, end_year):
     """
-    Descripion:
-    @param:
-    @return:
+    @param: sub_movies: (DataFrame),start_year: (Integer),end_year: (Integer)  
+    @return: a trendline showing the rating tredn over years 
     """
-    year_median = SUB_MOVIES.groupby('year')['rtAllCriticsRating'].median().reset_index()
+    year_median = sub_movies.groupby('year')['rtAllCriticsRating'].median().reset_index()
     year_show = year_median[year_median['year'] >= start_year]
     year_show = year_show[year_median['year'] <= end_year]
     selection = alt.selection_interval(bind='scales')
@@ -26,13 +25,13 @@ def draw_trend_line_median_year(SUB_MOVIES, start_year, end_year):
     chart_overall.save("overallchart.html")
     return chart_overall
 
-def top5_critic_per_year(REVIEWS_MERGE, interest_year):
+def top5_critic_per_year(reviews_merge, interest_year):
     """
-    Descripion:
-    @param:
-    @return:
+    @param: reviews_merge (DataFrame): the merged datasets of reviews and movies;
+            interested_year (Integer): the year that users are interested in.
+    @return: a DataFrame that shows the top 5 critics.
     """
-    group_aggregation = REVIEWS_MERGE[['critic', 'publication',
+    group_aggregation = reviews_merge[['critic', 'publication',
                                        'year',
                                        'quote']].groupby(['critic',
                                                           'year']).agg({'quote':

@@ -12,21 +12,21 @@ def words_with_specific_emotion(list_of_split_words, emotion):
                    emotion(string): the emotion words in EMOTIONS list
        Returns: list: the words in the string with one certain kind of emotion'''
     #get the emotion list of every word in the list
-    Look_Up = [SENTIMENTS.get(word) for word in list_of_split_words]
+    look_up = [SENTIMENTS.get(word) for word in list_of_split_words]
      #zip the emotion list with word in one list
-    Combine = list(zip(list_of_split_words, Look_Up))
-    Words_With_Specific_Emotion = [line[0] for line in Combine if line[1]
+    combine = list(zip(list_of_split_words, look_up))
+    words_with_specific_emotion = [line[0] for line in combine if line[1]
                                    is not None and line[1].get(emotion) == 1]
     #find the words in a specific emotion
-    return Words_With_Specific_Emotion
+    return words_with_specific_emotion
 
 # support function 2
-def words_list_for_each_emotion(Split_Test_String):
+def words_list_for_each_emotion(split_test_string):
     '''Produce a disctionary with emotion words as keys and words list
        having that emotion as values
-       Parameters: Split_Test_String (String): A list with split words
+       Parameters: split_test_string (String): A list with split words
        Returns: list-the  most common words in the input list'''
-    matching_words = [words_with_specific_emotion(Split_Test_String, emotion)
+    matching_words = [words_with_specific_emotion(split_test_string, emotion)
                       for emotion in EMOTIONS]
     distinct_matching = [i for i in matching_words]
     return {emotion:matching_word for (emotion, matching_word)

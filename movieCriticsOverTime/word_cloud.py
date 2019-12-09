@@ -5,11 +5,11 @@ from nltk.corpus import stopwords
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
-def vis_word_cloud(QUOTES):
+def vis_word_cloud(quotes):
     '''create word cloud visualization'''
     stop_words = stopwords.words("english")
-    for i in range(len(QUOTES)):
-        string = ''.join(QUOTES['quote'][i])
+    for i in range(len(quotes)):
+        string = ''.join(quotes['quote'][i])
     wordcloud = WordCloud(width=500,
                           height=500,
                           stopwords=stop_words,

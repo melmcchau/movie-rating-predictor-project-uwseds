@@ -1,9 +1,8 @@
 """
 SentimentAnalysis.py
 """
-
-import pandas as pd
 import re
+import pandas as pd
 import sentiment_setup
 from sentiments_nrc import EMOTIONS
 
@@ -16,7 +15,11 @@ EMOTIONS = ['positive', 'negative', 'anger',
 
 def grab_quotes(REVIEWS_MERGE, top_critics, interest_year):
     ''' Grab all quotes from specified year and put into one table to
-        prep for sentiment analyisis'''
+        prep for sentiment analyisis
+        Parameters: REVIEWS_MERGE (DataFrame): a merged dataframe with reviews and movies 
+                    top_critics(list): a list of top critics
+                    interest_year(integer): the year that users are interesed in
+        Returns: DataFrame: the combined quotes for each critic'''
     quote = pd.DataFrame()
     for name in top_critics:
         critic_quote = REVIEWS_MERGE[['critic', 'quote', 'year']]
@@ -27,23 +30,26 @@ def grab_quotes(REVIEWS_MERGE, top_critics, interest_year):
     return quote
 
 def analyze_quote(quote, top_critics):
-    '''Send grabbed quotes/reviews for sentiment analysis'''
+    ''' Send grabbed quotes/reviews for sentiment analysis
+        Parameters: quote(DataFrame): a DataFrame that includes critics and their combine quotes 
+                    top_critics(list): a list of top critics
+        Returns: DataFrame: sentiment analysis table for each critic'''
     res = pd.DataFrame()
     for name in top_critics:
         content = quote[quote['critic'] == name]['quote'].values[0]
-        Split_String = re.split(r'\W+', content)
-        lower_words = [word.lower() for word in Split_String]
+        split_string = re.split(r'\W+', content)
+        lower_words = [word.lower() for word in split_string]
         length_filtered = [word for word in lower_words if len(word) > 1]
-        Total_Words = len(length_filtered)
-        Words_List_for_Each_Emotion = sentiment_setup.words_list_for_each_emotion(length_filtered)
+        total_words = len(length_filtered)
+        words_list_for_each_emotion = sentiment_setup.words_list_for_each_emotion(length_filtered)
         result_list = []
         for i in EMOTIONS:
             result = {}
             example_words = [sentiment_setup.get_common_words_list(value)[:3]
-                             for key, value in Words_List_for_Each_Emotion.items()
+                             for key, value in words_list_for_each_emotion.items()
                              if key == i]
             result['EMOTION'] = i
-            result['PERCENT'] = len(Words_List_for_Each_Emotion[i])/Total_Words
+            result['PERCENT'] = len(words_list_for_each_emotion[i])/ total_words
             result['EXAMPLE WORDS'] = example_words[0]
             result['name'] = name
             result_list.append(result)
