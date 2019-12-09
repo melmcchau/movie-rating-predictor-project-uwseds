@@ -2,7 +2,7 @@ Background
 ___________
 
 Reviews on movies are created by critics and have an impact on the success and awards of a given movie. These reviews include chunks of text that describe the movie and the review, this project is providing the user information about how a critic rates movies over time so they can see if there is variation in rating and sentiment over the years. The problems we will solved are as follows:
-•	General movie rating trend line for all the movies we have during a time span
+•	The median of movie rating trend line for all the movies we have during a time span
 •	Sentiment analysis for the top five critics who have most quotes in a specific year
 •	Word frequency analysis for the quotes of top critics in a specific year
 
@@ -28,7 +28,7 @@ __
 •	Use Case 2
 Input:  Year
                i.e. 2003
-Output: TOP5 Critics/ Sentiment Score 
+Output: TOP5 Critics/ Sentiment Score /Interactive Comparison
 
 •	Use Case 2
 Input:  Year
