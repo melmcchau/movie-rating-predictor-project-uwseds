@@ -19,8 +19,8 @@ class TestSentiment(unittest.TestCase):
         """
         Checking if the quotes have right structure
         """
-        movie_data = pd.read_csv("../data/movies.dat", delimiter='\t')
-        review_data = pd.read_csv('../data/reviews.csv')
+        movie_data = pd.read_csv("./data/movies.dat", delimiter='\t')
+        review_data = pd.read_csv("./data/reviews.csv")
         movie = clean_data.clean_movies(movie_data)
         review = clean_data.clean_reviews(review_data)
         movies_reviews = clean_data.merge_movies_reviews(review,movie)

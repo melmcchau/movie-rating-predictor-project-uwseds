@@ -15,8 +15,8 @@ class TestColumns(unittest.TestCase):
         """
         Checking if the selected keywords are in the Dataset
         """
-        movie_data = pd.read_csv("../data/movies.dat", delimiter='\t')
-        review_data = pd.read_csv('../data/reviews.csv')
+        movie_data = pd.read_csv("./data/movies.dat", delimiter='\t')
+        review_data = pd.read_csv('./data/reviews.csv')
         movie = clean_data.clean_movies(movie_data)
         review = clean_data.clean_reviews(review_data)
         expected_columns_movie = ('rtAllCriticsRating' and
