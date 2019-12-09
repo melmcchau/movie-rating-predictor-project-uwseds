@@ -1,0 +1,5 @@
+[run]
+source = movieCriticsOverTime/tests
+
+[report]
+ignore_errors = True
