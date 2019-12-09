@@ -20,9 +20,7 @@ install:
 - pip install pandas
 
 script:
-- python ./movieCriticsOverTime/test_columns.py
-- python ./movieCriticsOverTime/test_sentiment.py
-- python ./movieCriticsOverTime/test_type.py
+- pytest tests
 
 after_success:
 - coveralls
