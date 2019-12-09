@@ -4,7 +4,10 @@ Unit tests for checking the availability of data
 
 import unittest
 import pandas as pd
-import clean_data
+import sys
+sys.path.append('..')
+from base import clean_data
+
 
 class TestColumns(unittest.TestCase):
     """
