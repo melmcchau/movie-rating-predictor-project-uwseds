@@ -6,9 +6,6 @@ import pandas as pd
 import sentiment_setup
 from sentiments_nrc import EMOTIONS
 
-MOVIES = pd.read_csv("../data/movies.dat", delimiter='\t')
-REVIEWS = pd.read_csv('../data/reviews.csv')
-
 EMOTIONS = ['positive', 'negative', 'anger',
             'anticipation', 'disgust', 'fear',
             'joy', 'sadness', 'surprise', 'trust']
