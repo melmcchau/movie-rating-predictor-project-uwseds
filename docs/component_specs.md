@@ -3,7 +3,11 @@ ____________
 ____________
 Data manager
 ___________
-The data are stored in csv file and we import it into Python Jupyter Notebook. The data itself is messy and the data quality is not high. We only keep reviews data with quotes which are not null value. We only selected the features we need from both data sets and stored them into Python DataFrame. So the data manager includes three parts: clean reviews data, clean movies data, merge movies and reviews data. 
+Our main data sets are including movies data and reviews data. The data are stored in two separate CSV files. Our data manager will import the data, handle missing values and null values, clean these two data sets and finally merge them together. So the data manager includes three parts: clean reviews data, clean movies data, merge movies and reviews data. 
+
+The reviews data are including 13419 entries. The columns are including: 'critic', 'fresh', 'imdb', 'publication', 'quote', 'review_date',rtid', 'title'.
+
+The movies data are including 9423 entries. The coulmd are including: 'title', 'imdbID', 'year', 'rtID', 'rtAllCriticsRating','rtAllCriticsNumReviews', 'rtAudienceNumRatings', 'rtAudienceScore'.
 
 Visualization manager Ⅰ
 ___________
@@ -24,7 +28,7 @@ Overall, the interactions are between the user and the interface, the interface 
 
 i.e. Use Case as a Movie Magazine Manager
 
-Interested in a Critic - Derek Adams, by loading into our Python program. The interface will jump out a blank to let the user fill in the Critic’s name that she/he is interested in. After inputting the name, the data manager will query the data needed for the plot. The Python function will do the plot and show the visualization in the interface. If the user is also interested in the sentiment, the Python program will call the data manager again and show the emotion analysis. 
+The users are firsly input a time range to see the overal median ratings among all the movies within that time span. The program will generate a plot to show the trendline of median ratings. And then the user could select a year that he/she is interested in. The program will generate a table showing the most popular critics within that year who have the top amount of critics. Then the program will show the sentiment analysis for these five critics and users could compare the critics in each emotion. By knowing the emotion tendency of a specific critic the magzine manager could have a better understanding of the potential critics. 
 
 _____________
 _____________
