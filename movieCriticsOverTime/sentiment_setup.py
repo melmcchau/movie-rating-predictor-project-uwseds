@@ -2,8 +2,8 @@
 SentimentSetup.py
 """
 
-from sentiments_nrc import SENTIMENTS
-from sentiments_nrc import EMOTIONS
+from .sentiments_nrc import SENTIMENTS
+from .sentiments_nrc import EMOTIONS
 
 # support function 1
 def words_with_specific_emotion(list_of_split_words, emotion):

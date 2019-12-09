@@ -2,10 +2,13 @@
 Unit tests for checking the availability of data
 """
 
-import unittest
-import pandas as pd
 import sys
-import clean_data
+import unittest
+
+import pandas as pd
+
+from movieCriticsOverTime import clean_data
+
 
 class TestColumns(unittest.TestCase):
     """
