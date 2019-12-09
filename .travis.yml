@@ -6,5 +6,6 @@ install:
   - pip install altair
   - pip install ipywidgets 
   - pip install pandas
+  - pip install -e
 # command to run tests
-script: pytest
+script: python -m pytest
