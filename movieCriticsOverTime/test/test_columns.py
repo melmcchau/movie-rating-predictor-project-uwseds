@@ -5,7 +5,7 @@ Unit tests for checking the availability of data
 import unittest
 import pandas as pd
 import sys
-import ../movieCriticsOverTime/clean_data
+import ../clean_data
 
 class TestColumns(unittest.TestCase):
     """
