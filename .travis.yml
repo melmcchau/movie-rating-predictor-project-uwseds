@@ -9,8 +9,13 @@
 #script: python -m pytest
 language: python
 
+before_install:
+  - "pip install -U pip"
+  - "export PYTHONPATH=$PYTHONPATH:$(pwd)"
+
 install:
 - travis_retry pip install -e .
+- pip install pytest
 - pip install altair
 - pip install ipywidgets 
 - pip install pandas
