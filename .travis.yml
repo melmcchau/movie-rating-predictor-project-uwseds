@@ -1,11 +1,25 @@
-language: python
-python:
-  - "3.8"
+#language: python
+#python:
+#  - "3.8"
 # command to install dependencies
+#install:
+
+#  - pip install -e
+# command to run tests
+#script: python -m pytest
+language: python
+
 install:
+- travis_retry pip install -r requirements-dev.txt
+- travis_retry pip install -r requirements.txt
+- travis_retry pip install -e .
   - pip install altair
   - pip install ipywidgets 
   - pip install pandas
-  - pip install -e
-# command to run tests
-script: python -m pytest
+
+script:
+- coverage run -m unittest discover
+
+
+after_success:
+- coveralls
