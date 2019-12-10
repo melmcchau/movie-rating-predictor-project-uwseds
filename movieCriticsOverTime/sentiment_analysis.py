@@ -3,8 +3,8 @@ SentimentAnalysis.py
 """
 import re
 import pandas as pd
-import sentiment_setup
-from sentiments_nrc import EMOTIONS
+from . import sentiment_setup
+from .sentiments_nrc import EMOTIONS
 
 EMOTIONS = ['positive', 'negative', 'anger',
             'anticipation', 'disgust', 'fear',
