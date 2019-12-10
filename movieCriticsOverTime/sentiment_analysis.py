@@ -6,20 +6,16 @@ import pandas as pd
 from . import sentiment_setup
 from .sentiments_nrc import EMOTIONS
 
-EMOTIONS = ['positive', 'negative', 'anger',
-            'anticipation', 'disgust', 'fear',
-            'joy', 'sadness', 'surprise', 'trust']
-
-def grab_quotes(REVIEWS_MERGE, top_critics, interest_year):
+def grab_quotes(reviews_merge, top_critics, interest_year):
     ''' Grab all quotes from specified year and put into one table to
         prep for sentiment analyisis
-        Parameters: REVIEWS_MERGE (DataFrame): a merged dataframe with reviews and movies 
+        Parameters: reviews_merge (DataFrame): a merged dataframe with reviews and movies 
                     top_critics(list): a list of top critics
                     interest_year(integer): the year that users are interesed in
         Returns: DataFrame: the combined quotes for each critic'''
     quote = pd.DataFrame()
     for name in top_critics:
-        critic_quote = REVIEWS_MERGE[['critic', 'quote', 'year']]
+        critic_quote = reviews_merge[['critic', 'quote', 'year']]
         sub_quote = critic_quote[(critic_quote['critic'] == name) &
                                  (critic_quote['year'] == interest_year)]
         quote = quote.append(sub_quote, ignore_index=True)
