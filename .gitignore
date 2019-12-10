@@ -38,3 +38,4 @@ Thumbs.db
 
 env/
 *.pyc
+.pytest_cache/
