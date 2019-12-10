@@ -1,13 +1,12 @@
 """
 Unit tests for checking the availability of data
 """
-
-import sys
 import unittest
+from os import path
 
 import pandas as pd
 
-from movieCriticsOverTime import clean_data
+from .. import clean_data
 
 
 class TestColumns(unittest.TestCase):
@@ -18,8 +17,8 @@ class TestColumns(unittest.TestCase):
         """
         Checking if the selected keywords are in the Dataset
         """
-        movie_data = pd.read_csv("./data/movies.dat", delimiter='\t')
-        review_data = pd.read_csv('./data/reviews.csv')
+        movie_data = pd.read_csv(path.join("..", "..", "data", "movies.dat"), delimiter='\t')
+        review_data = pd.read_csv(path.join("..", "..", "data", "reviews.csv"))
         movie = clean_data.clean_movies(movie_data)
         review = clean_data.clean_reviews(review_data)
         expected_columns_movie = ('rtAllCriticsRating' and
