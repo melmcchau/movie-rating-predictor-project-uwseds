@@ -1,0 +1,4 @@
+pytest
+altair
+ipywidgets 
+pandas
