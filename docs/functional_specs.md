@@ -17,21 +17,24 @@ Our data sources are including reviews data and movies data from Rotten Tomatoes
 •	The Movies data are including 65000 different movies from 1903 to 2011. The data structure including movie id, release year, number of reviews as well as ratings. 
 •	The Reviews data are ranging from 1929 to 2013 including their score, the reviewer, and the reviewer contents
 
-User Cases
+User Case
 ___________
+
+To use: open jupyter notebook and run the kernel
+
 •	Use Case 1 
-Input:  Reviewer Name/ Time Span
-               i.e. Derek Adams 01/01/2018-12/31/2018
+
+Input:  When prompted, input a starting year and end year of interest
+
 Output: A rating trend line within the time span 
 __
 
-•	Use Case 2
-Input:  Year
-               i.e. 2003
-Output: TOP5 Critics/ Sentiment Score /Interactive Comparison
+After viewing the visualization over time, select a year of interest to you. 
 
 •	Use Case 2
-Input:  Year
-               i.e. 2003
-Output: Word Cloud for the five critics 
+
+Input:  when prompted, imput a year of interest to you from the visualizaiton
+
+Output: TOP5 Critics/ Sentiment Score /Interactive Comparison/Word Cloud for the five critics 
+__
 
