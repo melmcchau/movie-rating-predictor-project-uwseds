@@ -31,6 +31,7 @@ __
 After viewing the visualization over time, select a year of interest to you. 
 
 •	Use Case 2
+
 Input:  when prompted, imput a year of interest to you from the visualizaiton
                i.e. 2003
 Output: TOP5 Critics/ Sentiment Score /Interactive Comparison/Word Cloud for the five critics 
