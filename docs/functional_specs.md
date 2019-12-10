@@ -25,6 +25,7 @@ To use: open jupyter notebook and run the kernel
 •	Use Case 1 
 
 Input:  When prompted, input a starting year and end year of interest
+
 Output: A rating trend line within the time span 
 __
 
@@ -33,6 +34,7 @@ After viewing the visualization over time, select a year of interest to you.
 •	Use Case 2
 
 Input:  when prompted, imput a year of interest to you from the visualizaiton
+
 Output: TOP5 Critics/ Sentiment Score /Interactive Comparison/Word Cloud for the five critics 
 __
 
