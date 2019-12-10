@@ -5,12 +5,9 @@ Unit tests for checking the availability of data
 # sys.path.append("..")
 
 import unittest
-from os import path
-
 import pandas as pd
-
+from os import path
 from .. import clean_data, overall_rating, sentiment_analysis
-
 
 class TestSentiment(unittest.TestCase):
     """

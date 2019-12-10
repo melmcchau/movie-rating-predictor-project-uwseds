@@ -1,15 +1,11 @@
 """
 Unit tests for checking the availability of data
 """
-
-import unittest
-from os import path
-
 import numpy as np
 import pandas as pd
-
+import unittest
+from os import path
 from movieCriticsOverTime import clean_data
-
 
 class TestTypes(unittest.TestCase):
     """

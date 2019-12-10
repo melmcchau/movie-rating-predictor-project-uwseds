@@ -5,14 +5,10 @@ Unit tests for checking the availability of data
 # sys.path.append("..")
 
 import unittest
-from os import path, remove
-
 import pandas as pd
-
 import altair
-
+from os import path, remove
 from .. import clean_data, overall_rating, sentiment_analysis
-
 
 class TestViz(unittest.TestCase):
     """
@@ -39,8 +35,6 @@ class TestViz(unittest.TestCase):
         self.assertTrue(path.exists('overallchart.html'))
         remove('overallchart.html')
         self.assertFalse(path.exists('overallchart.html'))
-
-
 
 if __name__ == '__main__':
     unittest.main()

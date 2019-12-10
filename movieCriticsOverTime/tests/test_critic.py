@@ -5,12 +5,9 @@ Unit tests for checking the availability of data
 # sys.path.append("..")
 
 import unittest
-from os import path
-
 import pandas as pd
-
+from os import path
 from .. import clean_data, overall_rating, sentiment_analysis
-
 
 class TestViz(unittest.TestCase):
     """
@@ -28,7 +25,6 @@ class TestViz(unittest.TestCase):
         top_critics = overall_rating.top5_critic_per_year(movies_reviews, 2000)
 
         self.assertTrue(type(top_critics) == list)
-
-
+        
 if __name__ == '__main__':
     unittest.main()

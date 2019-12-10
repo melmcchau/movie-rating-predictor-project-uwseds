@@ -2,12 +2,9 @@
 Unit tests for checking the availability of data
 """
 import unittest
-from os import path
-
 import pandas as pd
-
+from os import path
 from .. import clean_data
-
 
 class TestColumns(unittest.TestCase):
     """
